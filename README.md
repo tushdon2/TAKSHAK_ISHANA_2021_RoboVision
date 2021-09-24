@@ -11,7 +11,12 @@ smallest time possible.
 
 ## Instructions
 1. Clone this repo into your local machine using the command: 
-`git clone https://github.com/tushdon2/TAKSHAK_ISHANA_2021_RoboVision.git`
-2. Change your working directory to the cloned repo and create a Virtual Environment. For example, a virtual environment named `venv` can be created using venv by `python -m venv venv` command.
-3. Activate the environment using the `.\venv\Scripts\activate` command in **Windows** or `source venv/bin/activate` in **MacOS** or **Linux**. It can later be deactivated by using the `deactivate` command.
-4. Install the required libraries and packages from the `requirements.txt` file using the `pip install -r requirements.txt` command.
+  * `git clone https://github.com/tushdon2/TAKSHAK_ISHANA_2021_RoboVision.git`
+2. Change your working directory to the cloned repo and create a Virtual Environment. For example, a virtual environment named `venv` can be created using venv by the command: 
+  * `python -m venv venv`
+3. Activate the environment:
+  * use `.\venv\Scripts\activate` command in **Windows** 
+  * use `source venv/bin/activate` in **MacOS** or **Linux**
+  * It can later be deactivated by using the `deactivate` command
+4. Install the required libraries and packages from the `requirements.txt` file 
+  * use the `pip install -r requirements.txt` command
