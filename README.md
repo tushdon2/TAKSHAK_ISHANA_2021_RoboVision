@@ -1,5 +1,5 @@
 # TAKSHAK_ISHANA_2021_RoboVision
-Team RoboVision's Repository for TAKSHAK Computer Vision Problem Statement: ISHANA 2021
+Team RoboVision's Repository for TAKSHAK Computer Vision Problem Statement: [ISHANA 2021](https://takshak.roboism.in/competitions/ishana)
 
 ## Problem Statement
 There is a autonomous car driving around on a security mission on ground. It's a high tension time
@@ -18,5 +18,5 @@ smallest time possible.
   * use `.\venv\Scripts\activate` command in **Windows** 
   * use `source venv/bin/activate` in **MacOS** or **Linux**
   * It can later be deactivated by using the `deactivate` command
-4. Install the required libraries and packages from the `requirements.txt` file 
+4. Install the required libraries and packages from the [`requirements.txt`](./requirements.txt) file 
   * use the `pip install -r requirements.txt` command
