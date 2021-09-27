@@ -1,4 +1,9 @@
-/venv/
+# Virtual Environment
+/venv/ 
+
+#IDE
 /.vscode
 **/.ipynb_checkpoints
-**/__pychache__
+
+#Python cache
+**/__pycache__
