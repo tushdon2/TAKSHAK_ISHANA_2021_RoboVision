@@ -14,9 +14,6 @@ class Pixel:
         self.dist = math.inf
         self.neighbours = []
 
-    def __str__(self):
-        return "at:({},{}) after:({},{}) dist:{} visited:{} neighbour:{}".format(self.row, self.col, self.parent_row, self.parent_col, self.dist, self.visited, self.neighbours)
-
 class PriorityQueue:
     # Data Structure for Priority Queue (Min-Heap) for Dijkstra's Algorithm
     def __init__(self, pixMtrx):
@@ -70,9 +67,3 @@ class PriorityQueue:
         self.__queue.pop()
         self.length -= 1
         return item
-
-    def __str__(self):
-        s = ""
-        for i in range(15):
-            s += str((self.__queue[i].row, self.__queue[i].col))
-        return s
