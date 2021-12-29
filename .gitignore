@@ -7,3 +7,9 @@
 
 #Python cache
 **/__pycache__
+
+# ML Dataset
+/assets/preprocessed_ML_dataset
+
+#others
+/rough.py
